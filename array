@@ -1,0 +1,9 @@
+class Solution:
+    def mergeKArrays(self, lists):
+        result = []
+
+        for arr in lists:
+            result.extend(arr)
+
+        result.sort()
+        return result
